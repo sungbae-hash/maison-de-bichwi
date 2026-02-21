@@ -39,7 +39,7 @@ export default function Hero() {
                     transition={{ duration: 0.8, delay: 0.4 }}
                     className="text-gray-600 md:text-lg mb-10 max-w-2xl mx-auto leading-relaxed"
                 >
-                    원주 무실동, 당신만을 위한 프라이빗한 공간.<br className="hidden md:block" />
+                    원주 단구동, 당신만을 위한 프라이빗한 공간.<br className="hidden md:block" />
                     네일, 속눈썹, 왁싱, 그리고 에스테틱까지 차원이 다른 뷰티 큐레이션을 경험하세요.
                 </motion.p>
 

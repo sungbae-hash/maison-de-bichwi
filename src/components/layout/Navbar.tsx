@@ -14,9 +14,9 @@ export default function Navbar() {
     }, []);
 
     const navLinks = [
-        { name: 'Brand Story', href: '#story' },
-        { name: 'LCN Medical', href: '#lcn' },
-        { name: 'Total Service', href: '#service' },
+        { name: 'Brand Story', href: '/#story' },
+        { name: 'Alessandro Medical', href: '/#alessandro' },
+        { name: 'Total Service', href: '/#service' },
     ];
 
     return (
@@ -25,7 +25,7 @@ export default function Navbar() {
                 <div className="flex justify-between items-center">
                     {/* Logo */}
                     <div className="flex-shrink-0 flex items-center">
-                        <a href="#" className="font-serif text-2xl tracking-widest text-[#00A86B]">Maison de Biche</a>
+                        <a href="/" className="font-serif text-2xl tracking-widest text-[#00A86B]">Maison de Bichwi</a>
                     </div>
 
                     {/* Desktop Nav */}

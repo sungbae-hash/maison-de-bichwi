@@ -4,7 +4,7 @@ const values = [
     {
         title: 'Safety',
         subtitle: '안전한 성분, 완벽한 위생',
-        desc: '의료기기 수준의 멸균 시스템과 검증된 독일 최고급 LCN 레진젤을 사용하여 가장 안전한 시술 환경을 제공합니다.'
+        desc: '의료기기 수준의 멸균 시스템과 검증된 독일 최고급 알레산드로(alessandro) 레진젤을 사용하여 가장 안전한 시술 환경을 제공합니다.'
     },
     {
         title: 'Artistry',
@@ -52,7 +52,7 @@ export default function BrandStory() {
                     >
                         <h2 className="font-serif text-4xl text-[#333333] mb-6">
                             비취의 집,<br />
-                            <span className="text-[#00A86B]">Maison de Biche</span>
+                            <span className="text-[#00A86B]">Maison de Bichwi</span>
                         </h2>
                         <p className="text-gray-600 mb-12 leading-relaxed">
                             메종드비취는 프랑스어로 '비취의 집'이라는 뜻을 담고 있습니다.<br />
@@ -72,6 +72,29 @@ export default function BrandStory() {
                     </motion.div>
 
                 </div>
+
+                {/* Premium Partners */}
+                <motion.div
+                    initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.8, delay: 0.4 }}
+                    className="mt-24 pt-16 border-t border-gray-100"
+                >
+                    <div className="text-center mb-10">
+                        <span className="text-[#00A86B] font-medium tracking-widest text-sm uppercase block mb-3">Our Premium Partners</span>
+                        <h3 className="font-serif text-2xl text-[#333333]">안전과 타협하지 않는 최상급 브랜드 라인업</h3>
+                        <p className="text-gray-500 mt-3 text-sm">메종드비취는 고객님의 아름다움과 건강을 위해 글로벌 하이엔드 제품만을 고집합니다.</p>
+                    </div>
+
+                    <div className="flex flex-wrap justify-center gap-x-12 gap-y-8 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
+                        {['BANDI', 'MAYOUR', 'alessandro', 'Lash Addict', 'Triple X Wax', 'KISS NAIL'].map((brand, i) => (
+                            <div key={i} className="flex items-center justify-center font-serif text-xl sm:text-2xl text-gray-400 font-semibold tracking-wider hover:text-[#00A86B] transition-colors cursor-default">
+                                {brand}
+                            </div>
+                        ))}
+                    </div>
+                </motion.div>
             </div>
         </section>
     );

@@ -8,7 +8,7 @@ export default function Footer() {
 
                     {/* Brand Info */}
                     <div className="space-y-4">
-                        <h3 className="font-serif text-2xl tracking-widest text-[#00A86B]">Maison de Biche</h3>
+                        <h3 className="font-serif text-2xl tracking-widest text-[#00A86B]">Maison de Bichwi</h3>
                         <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
                             안전(Safety), 예술성(Artistry), 그리고 완벽한 휴식(Relaxation).<br />
                             당신만을 위한 프리미엄 토탈 뷰티 하우스.
@@ -21,7 +21,7 @@ export default function Footer() {
                         <div className="space-y-3">
                             <div className="flex items-start space-x-3 text-gray-400">
                                 <MapPin size={18} className="text-[#00A86B] mt-0.5 flex-shrink-0" />
-                                <span className="text-sm">강원도 원주시 능라동길 48<br />휴림타운 2층 204호 메종드비취</span>
+                                <span className="text-sm">강원도 원주시 단구동<br />메종드비취</span>
                             </div>
                             <div className="flex items-center space-x-3 text-gray-400">
                                 <Phone size={18} className="text-[#00A86B] flex-shrink-0" />
@@ -53,7 +53,7 @@ export default function Footer() {
 
                 <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
                     <p className="text-gray-500 text-sm">
-                        © {new Date().getFullYear()} Maison de Biche. All rights reserved.
+                        © {new Date().getFullYear()} Maison de Bichwi. All rights reserved.
                     </p>
                     <div className="flex space-x-4 mt-4 md:mt-0 text-gray-500 text-sm">
                         <a href="#" className="hover:text-white transition-colors">이용약관</a>
